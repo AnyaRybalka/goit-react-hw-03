@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 326px;
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+.item p {
+    margin: 4px;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blackIcon {
+    color: black;
+}
+
+.btn {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: red;
+    color: azure;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border: 1px solid black;
+    border-radius: 5px;
+}

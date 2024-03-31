@@ -1,0 +1,49 @@
+.container {
+    width: 320px;
+    padding: 20px;
+}
+
+.error {
+    font-size: 16px;
+    color: red;
+    /* Червоний колір тексту для помилок */
+    display: block;
+    /* Показуємо помилку як блочний елемент */
+    margin-top: 5px;
+    /* Відступ зверху */
+    white-space: nowrap;
+    /* Забороняємо обертання тексту */
+}
+
+.form {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.input {
+    display: block;
+    padding: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    display: block;
+    margin-top: 12px;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
