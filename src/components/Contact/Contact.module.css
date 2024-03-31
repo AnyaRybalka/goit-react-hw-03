@@ -23,6 +23,15 @@
 .blackIcon {
     color: black;
 }
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 4px;
+}
 
 .btn {
     height: 32px;
@@ -38,6 +47,8 @@
     color: azure;
     cursor: pointer;
     transition: border-color 0.25s;
-    border: 1px solid black;
     border-radius: 5px;
+}
+.btn:hover {
+    border: 1px solid black;
 }

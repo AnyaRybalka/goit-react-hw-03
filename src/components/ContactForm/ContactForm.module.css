@@ -6,13 +6,9 @@
 .error {
     font-size: 16px;
     color: red;
-    /* Червоний колір тексту для помилок */
     display: block;
-    /* Показуємо помилку як блочний елемент */
     margin-top: 5px;
-    /* Відступ зверху */
     white-space: nowrap;
-    /* Забороняємо обертання тексту */
 }
 
 .form {
@@ -41,9 +37,12 @@
     margin-top: 12px;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color: #33bd24;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+.btn:hover {
+    border: 1px solid black;
 }
