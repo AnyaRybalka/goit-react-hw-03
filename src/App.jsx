@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import ContactForm from "./components/ContactForm/ContactForm";
 import ContactList from "./components/ContacList/ContactList";
-import SearchBar from "./components/SearchBar/SearchBar";
+import SearchBox from "./components/SearchBox/SearchBox";
 import './App.css'; 
 const initialValues = [
   { id: 'id-1', name: 'Rosie Simpson', number: '459-12-56' },
@@ -33,7 +33,7 @@ export default function App() {
     <div className="container"> {}
       <h1 className="phonebook-title">Phonebook</h1>
       <ContactForm onAdd={addContact}></ContactForm>
-      <SearchBar value={filter} onFilter={setFilter}></SearchBar>
+      <SearchBox value={filter} onFilter={setFilter}></SearchBox>
       <ContactList contacts={visibleContacts} onDelete={removeContact}></ContactList>
     </div>
   );

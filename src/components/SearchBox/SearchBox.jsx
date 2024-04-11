@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
 import { useId } from "react";
-import CSS from './SearchBar.module.css';
+import CSS from './SearchBox.module.css';
 
-export default function SearchBar({ value, onFilter }) {
+export default function SearchBox({ value, onFilter }) {
     const searchId = useId();
     return (
         <div className={CSS.container}>
@@ -19,7 +19,7 @@ export default function SearchBar({ value, onFilter }) {
     )
 }
 
-SearchBar.propTypes = {
+SearchBox.propTypes = {
     value: PropTypes.string.isRequired,
     onFilter: PropTypes.func.isRequired
 };
